@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Disease Name</title>
+    <style>
+        body{
+            background-color:aqua;
+        }
+        .up{
+            position: fixed;
+            top:100px;
+            left:550px;
+        }
+        h1{
+            text-align:center;
+        }
+    </style>
+  </head>
+  <body>
+      <h1>Uploaded Image and its Disease</h1>
+      <div class="up">
+          <img src="{{ url_for('static', filename=imgh[7:]) }}" alt="Uploaded Image">
+          <h2>{{ result }}</h2>
+    </div>
+  </body>
+</html>
+

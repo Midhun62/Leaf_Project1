@@ -1,0 +1,41 @@
+.upload-form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  position: relative;
+  top:200px;
+  background-color:#ADD8E6;
+}
+
+h1{
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+form input[type="file"]{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+form input[type="submit"]{
+  display: block;
+  margin: 0 auto;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border-radius: 5px;
+}
+
+form input[type="submit"]:hover{
+  background-color: #3e8e41;
+}
+  
+.bo1{
+  background-color:#003366;
+}
